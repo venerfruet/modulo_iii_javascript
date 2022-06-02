@@ -1,0 +1,43 @@
+body{
+    font-family: monospace;
+}
+
+.botao{
+    border-radius: 33px;
+    font-size: 33pt;
+    border: none;
+    padding: 13px;
+    background-color: darkgray;
+    cursor: pointer;
+    user-select: none;
+}
+
+#mostrador{
+    display: inline-block;
+    margin: 17px;
+    font-family: fantasy;
+    font-size: 37px;
+    user-select: none;
+    width: 73px;
+    text-align: center;
+}
+
+.negativo{
+    color:red;
+}
+
+.positivo{
+    color:green;
+}
+
+.neutro{
+    color:black;
+}
+
+.controles{
+    margin: 17px;
+    width: fit-content;
+    border: 1px solid;
+    padding: 13px;
+    border-radius: 7px;
+}
