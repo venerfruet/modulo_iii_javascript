@@ -1,0 +1,19 @@
+body{
+    font-family: monospace;
+}
+
+.lista{
+    width: fit-content;
+}
+
+.registro{
+    margin-top: 13px;
+}
+
+.registro span{
+    margin: 13px;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
