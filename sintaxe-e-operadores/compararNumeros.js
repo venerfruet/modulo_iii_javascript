@@ -4,7 +4,7 @@ function compararNumeros(num1=0, num2=0){
     let saida;
 
     //são iguais?
-    saida=`Os números 1 e 2${num1!==num2 ? ' não':''} são iguais.`;
+    saida=`Os números ${num1} e ${num2}${num1!==num2 ? ' são diferentes':' são iguais'}.`;
 
     // soma é menor, maior ou igual a 10?
     saida=`${saida} Sua soma é ${soma}, que é ${soma===10 ? 'igual a' : soma<10 ? 'menor que' : 'maior que'} 10`;
@@ -16,4 +16,4 @@ function compararNumeros(num1=0, num2=0){
     
 }
 
-compararNumeros(1,5);
+compararNumeros(5,5);
